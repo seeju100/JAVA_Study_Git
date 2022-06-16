@@ -7,7 +7,7 @@ public class Ex2 {
 
 	public static void main(String[] args) {
 		/*
-		 * 키보드로 부터 데이터를 입력받아 처리하는 방법
+		 * 키보드로 부터 데이터를 입력받아 처리하는 방법.
 		 * 2. InputStream 객체를 사용하여 1Byte 단위로 입력 데이터를 처리하지 않고
 		 *    배열을 사용하여 한번에 여러 Byte를 모아서 처리하는 방법
 		 *    - read(byte[] b) 메서드를 호출하여 입력데이터를 배열크기만큼 읽어와서 저장

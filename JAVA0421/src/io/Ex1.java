@@ -8,7 +8,7 @@ public class Ex1 {
 	public static void main(String[] args) {
 		/*
 		 * 자바 I/O (Input / Ouput)
-		 * - java.io 패키지에 있는 클래스들의 모음
+		 * - java.io 패키지에 있는 클래스들의 모음.
 		 * - 자바에서 각종 입출력을 담당
 		 * - Node(노드) : 자바에서 입출력을 수행하는 대상
 		 * 					(입력 노드: 키보드, 마우스, 파일, 네트워크, 데이터베이스 등)

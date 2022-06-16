@@ -11,7 +11,7 @@ public class Test6 {
 		// BufferedReader 를 사용하여 입력받은 문자열을
 		// OutputStream 을 사용하여 출력
 		
-		// try ~ resource 구문 작성
+		// try ~ resource 구문 작성.
 		// try() 문장 소괄호 내에 복수개의 객체를 세미콜론(;)으로 구분하여 전달 가능
 		try(BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in)); 
 				OutputStream os = System.out){

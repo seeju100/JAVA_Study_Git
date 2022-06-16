@@ -7,7 +7,7 @@ public class Ex7 {
 
 	public static void main(String[] args) {
 		/*
-		 * 모니터로 데이터를 출력하는 방법
+		 * 모니터로 데이터를 출력하는 방법.
 		 * 2. OutputStreamWriter 사용 (char 단위로 처리)
 		 * 	- write() 메서드를 호출하여 char[] 배열 또는 String 객체를 전달하여
 		 *    문자 데이터 출력 가능

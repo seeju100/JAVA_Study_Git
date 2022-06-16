@@ -8,7 +8,7 @@ public class Ex3 {
 
 	public static void main(String[] args) {
 		/*
-		 * 키보드로부터 데이터를 입력받아 처리하는 방법
+		 * 키보드로부터 데이터를 입력받아 처리하는 방법.
 		 * 3. InputStreamReader 객체를 사용하여 char 단위로 입력데이터를 처리하는 방법
 		 * 		- InputStream 객체를 파라미터로 갖는 InputStreamReader 객체 생성
 		 * 		  => 보조스트림을 사용하는 스트림 체이닝(Stream Chaning) 방식 문법 구성

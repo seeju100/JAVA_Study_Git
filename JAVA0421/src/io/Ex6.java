@@ -6,7 +6,7 @@ import java.io.OutputStream;
 public class Ex6 {
 	public static void main(String[] args) {
 		/*
-		 * 모니터로 데이터를 출력하는 방법
+		 * 모니터로 데이터를 출력하는 방법.
 		 * 1. 기본 출력스트림인 OutputStream 사용(byte 단위로 처리)
 		 * 		- write() 메서드를 호출하여 byte 단위 출력
 		 * 		- byte 단위로 처리되므로 문자열 데이터 자체를 처리할 수 없음

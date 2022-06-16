@@ -7,7 +7,7 @@ public class Ex4 {
 
 	public static void main(String[] args) {
 		/*
-		 * 키보드로부터 데이터를 입력받아 처리하는 방법
+		 * 키보드로부터 데이터를 입력받아 처리하는 방법.
 		 * 4. InputStreaReader 객체를 사용하여 char단위로 읽어온 데이터를
 		 *    배열을 사용하여 한번에 여러 문자로 모아서 처리하는 방법
 		 * */
