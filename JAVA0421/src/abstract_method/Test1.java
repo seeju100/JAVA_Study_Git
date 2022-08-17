@@ -9,10 +9,13 @@ public class Test1 {
 		
 		Bird b = new Bird();
 		b.fly();
+//		b.hi();
 		SuperMan s = new SuperMan();
 		s.fly();
+//		s.hi();
 		Airplane a = new Airplane();
 		a.fly();
+//		a.hi();
 		System.out.println("----------------------");
 		// Flyer 클래스 인스턴스 생성은 불가능 하지만, 참조변수 타입으로 활용 가능(다형성)
 		// Bird -> Flyer 업캐스팅 후 fly() 메서드 호출
@@ -48,6 +51,7 @@ public class Test1 {
 // fly() 추상메서드
 abstract class Flyer {
 	public abstract void fly(); // 추상메서드
+	public abstract void hi();
 }
 
 // Bird 클래스 정의 - Flyer 클래스 상속
@@ -56,6 +60,9 @@ class Bird extends Flyer {
 	@Override
 	public void fly() {
 		System.out.println("Bird 비행!");
+	}
+	public void hi() {
+		System.out.println("Bird_Hi");
 	}
 }
 
@@ -66,6 +73,9 @@ class SuperMan extends Flyer {
 	public void fly() {
 		System.out.println("SuperMan 비행!");
 	}
+	public void hi() {
+		System.out.println("SuperMan_Hi");
+	}
 }
 
 // Airplane 클래스 정의 - Flyer 클래스 상속
@@ -74,6 +84,9 @@ class Airplane extends Flyer {
 	@Override
 	public void fly() {
 		System.out.println("Airplane 비행!");
+	}
+	public void hi() {
+		System.out.println("Airplane_Hi");
 	}
 }
 
