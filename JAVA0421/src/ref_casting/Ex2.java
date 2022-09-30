@@ -14,7 +14,7 @@ public class Ex2 {
 		for (무기 무기 : 무기s) {
 			무기.attack();
 		}
-		
+		System.out.println("-----------------------------------------1");
 		Hero 바바리안 = new Hero();
 		바바리안.setWeapon(검);
 		바바리안.무기.attack();

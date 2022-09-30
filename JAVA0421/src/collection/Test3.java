@@ -11,7 +11,7 @@ public class Test3 {
 		 * Stack 객체 1개 생성(stack)
 		 * => 웹사이트 주소 4~5개 추가
 		 * => 반복문 사용하여 Top 에서부터 하나씩 객체를 꺼내서 출력 후 제거(pop())
-		 * 
+		 *         스택!!!!!! 선입후출
 		 * */
 		Stack stack = new Stack();
 		
@@ -55,7 +55,7 @@ public class Test3 {
 		 * Queue 객체 1개 생성
 		 * => 파일 4~5개 추가
 		 * => 반복문을 사용하여 하나씩 객체를 꺼내서 출력 후 제거(poll())
-		 * 
+		 *      큐~~~~~선입선출 
 		 * */
 		
 		Queue q = new LinkedList();

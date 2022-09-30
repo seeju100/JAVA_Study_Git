@@ -42,7 +42,7 @@ public class Ex8 {
 		}
 //		System.out.println(s);
 		for(int j=s.length()-1;j>=0;j--) {
-			real+=s.charAt(j);  //s의 글자의 index의 최대값부터 0까지 반대로 출력하여 
+			real+= s.charAt(j);  //s의 글자의 index의 최대값부터 0까지 반대로 출력하여 
 			//real의 String에 차례대로 넣어준다.
 		}
 		System.out.println(real); //2진수 -> 8진수

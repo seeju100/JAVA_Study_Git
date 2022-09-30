@@ -40,10 +40,10 @@ public class Fex11 {
 		}
 		for(int i=0;i<arr.length;i++) {
 			for(int j=i+1;j<arr.length;j++) {
-				if(arr[i]>arr[j]) {
-					int temp =arr[i];
-					arr[i]=arr[j];
-					arr[j]=temp;
+				if(arr[i]>arr[j]) {  //첫번째 배열이 두번째 배열보다 크면
+					int temp =arr[i];  //첫번째 배열은 템프에 저장
+					arr[i]=arr[j];	    //두번째 배열이 첫번째 배열에 저장
+					arr[j]=temp;		//템프는 두번째 배열에 저장     =>순서가 바뀜
 				}
 			}
 		}
